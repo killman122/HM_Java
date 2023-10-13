@@ -6,4 +6,11 @@ public class Dog extends Animal {
     void eat() {
         System.out.println("狗吃肉");
     }
+
+    public Dog() {
+    }
+    //如果想要避免在子类中重复定义构造函数,可以通过super关键字调用父类的构造函数,但是还是需要在父类中定义构造函数,并且子类中也要写构造函数,只是省略了this的成员变量赋值的阶段
+    public Dog(String name, String breed) {
+        super(name, breed);
+    }
 }

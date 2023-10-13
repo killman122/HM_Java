@@ -14,6 +14,33 @@ package com.heima.abstract_demo.test;
         测试类中创建Cat 和 Dog 对象,调用方法测试
  */
 public abstract class Animal {
+    String name;
+    String breed;
+
+    public Animal(String name, String breed) {
+        this.name = name;
+        this.breed = breed;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getBreed() {
+        return breed;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    public Animal() {
+    }
+
     abstract void eat();
     public void drink(){
         System.out.println("喝水");

@@ -12,7 +12,7 @@ public class Demo1工具类的编写 {
     public static void main(String[] args) {
         int arr[] = {1,2,3,4,5,6,7,8,9,10};
         System.out.println(Arrays.toString(arr));
-        SumUtils.sum();
+        System.out.println(SumUtils.sum());
     }
 }
 
