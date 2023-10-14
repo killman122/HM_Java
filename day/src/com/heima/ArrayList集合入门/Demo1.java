@@ -1,7 +1,5 @@
 package com.heima.ArrayList集合入门;
 import com.heima.String.Student;
-import com.sun.org.apache.bcel.internal.generic.NEW;
-
 import java.util.ArrayList;
 /*
     1.打开api搜索ArrayList

@@ -1,7 +1,4 @@
 package com.heima.方法概述;
-
-import jdk.nashorn.internal.ir.CallNode;
-
 import java.util.Arrays;
 import java.util.Scanner;
 

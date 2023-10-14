@@ -1,7 +1,5 @@
 package com.heima.ArrayList集合入门;
 
-import javax.jnlp.ClipboardService;
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Scanner;
 
