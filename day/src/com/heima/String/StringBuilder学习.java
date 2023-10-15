@@ -9,7 +9,7 @@ package com.heima.String;
         public final class StringBuilder学习 extends Object implements Serializable, CharSequence
 
     2.描述:
-        一个可变的字符序列,和数组以及Java中的字典元组等有一些相似
+        一个可变的字符序列,和数组以及python中的字典元组等有一些相似
     3.构造方法:
         StringBuilder学习() 构造一个没有字符的字符串构建器，初始容量为16个字符。
         StringBuilder学习(CharSequence seq) 构造一个包含与指定的相同字符的字符串构建器 CharSequence。
