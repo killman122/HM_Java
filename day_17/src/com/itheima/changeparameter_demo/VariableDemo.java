@@ -2,6 +2,7 @@ package com.itheima.changeparameter_demo;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 /*
     Collections的addAll方法
@@ -15,5 +16,11 @@ public class VariableDemo {
 //    static<T> boolean addALl( Collections<T> c ， T...elements ):   添加任多个数到集合中
         System.out.println(Collections.addAll(list, "a", "b", "c", "d"));//第一个参数要求一个Collections单例集合
         System.out.println(list);
+    }
+
+    public static <T>void addElement(List<T> list,T...t){//先写参数中的泛型限定,但是会报错,所以需要先补全返回值前的泛型限定
+        for (T element : t) {
+            list.add(element);
+        }
     }
 }
