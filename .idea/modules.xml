@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HM_Java.iml" filepath="$PROJECT_DIR$/HM_Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day24/day24.iml" filepath="$PROJECT_DIR$/day24/day24.iml" />
       <module fileurl="file://$PROJECT_DIR$/day_15/day_15.iml" filepath="$PROJECT_DIR$/day_15/day_15.iml" />
       <module fileurl="file://$PROJECT_DIR$/day_16/day_16.iml" filepath="$PROJECT_DIR$/day_16/day_16.iml" />
       <module fileurl="file://$PROJECT_DIR$/day_17/day_18.iml" filepath="$PROJECT_DIR$/day_17/day_18.iml" />
