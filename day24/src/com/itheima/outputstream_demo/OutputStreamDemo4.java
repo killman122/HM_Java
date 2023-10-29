@@ -37,5 +37,6 @@ public class OutputStreamDemo4 {
         fos.write(bytes);
         //释放资源
         fos.close();
+
     }
 }
