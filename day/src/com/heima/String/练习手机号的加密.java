@@ -14,7 +14,7 @@ public class 练习手机号的加密 {
         String phoneNum = scanner.nextLine();
         //使用字符串截取的方法
         int length = phoneNum.length();
-        String xx = phoneNum.substring(3, length - 4);
+        String xx = phoneNum.substring(3, length - 4);//使用substring()方法截取字符串,包含头不包含尾
 //        System.out.println(xx);
         String xxxx = phoneNum.replace(xx, "xxxx");
         System.out.println(xxxx);

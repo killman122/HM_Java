@@ -11,7 +11,7 @@ package com.heima.匿名内部类;
 public class Test1 {
     public static void main(String[] args) {
         //使用父类型变量多态接收匿名子类型对象
-        Flyable flyable = new Flyable() {//多态的使用方式,接口的引用指向子类对象/实现类对象
+        Flyable flyable = new Flyable() {//多态的使用方式,接口的引用指向子类对象/实现类对象,尽管这里的实现的方式是通过匿名内部类的方式实现抽象接口而不是通过直接使用实现类的方式实现接口,这里需要注意,在接口中对于抽象方法的重写
             @Override
             public void fly() {
                 System.out.println("飞");

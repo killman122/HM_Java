@@ -6,6 +6,7 @@ public class Girl extends Person{
     }
 
     public Girl() {
+        super();
     }
 
     @Override

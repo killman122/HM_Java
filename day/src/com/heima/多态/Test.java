@@ -24,7 +24,7 @@ public class Test {
         //依旧是引用的方法,但是将父类引用指向子类对象,这样就可以调用子类的方法了
         //但是没有显式的直接将new 出的子类对象传递给动物类,所以这里的多态是一种隐式的多态,而是通过函数传参的方式隐式传入
         a.eat();
-        if (a instanceof Dog1) {
+        if (a instanceof Dog1) {//instanceof 操作符用来判断一个对象是否是一个类或者是接口的实例,操作符的前面的操作数是要操作的对象,后面的操作数是要对比的类的类名
             Dog1 d = (Dog1) a;
             d.lookHome();
         } else if (a instanceof Cat1) {

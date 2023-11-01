@@ -22,7 +22,7 @@ package com.heima.String;
 public class StringBuilder学习 {
     public static void main(String[] args) {
         StringBuilder stringBuilder = new StringBuilder();
-        int capacity = stringBuilder.capacity();
+        int capacity = stringBuilder.capacity();//通过StringBuilder中的capacity方法获取初始容量,返回的是一个整型的数值
         System.out.println("StringBuilder字符串构建器中有"+capacity+"个初始容量");
         StringBuilder stringBuilder1 = new StringBuilder(32);
         capacity = stringBuilder1.capacity();
@@ -30,7 +30,7 @@ public class StringBuilder学习 {
         StringBuilder stringBuilder2 = new StringBuilder("abc");
         System.out.println(stringBuilder2);
         System.out.println(stringBuilder2.capacity());
-        System.out.println(stringBuilder2.getClass().getSimpleName());
+        System.out.println(stringBuilder2.getClass().getSimpleName());//获取类名,这里的方法getClass和getSimpleName对于任意的对象都是有效果的
 
         //常用方法
         //StringBuilder append(boolean b) 将 boolean参数的字符串表示附加到序列中。  

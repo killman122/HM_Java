@@ -2,7 +2,7 @@ package com.heima.static_demo;
 
 public class StaticDemo {
     public static void main(String[] args) {
-        Student.school = "传智教育";
+        Student.school = "传智教育";//对于静态的成员变量可以使用类名.静态成员变量名的方式赋值
         Student s = new Student();
         s.name = "张三";
         s.age = 23;

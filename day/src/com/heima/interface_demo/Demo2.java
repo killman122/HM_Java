@@ -14,6 +14,6 @@ public class Demo2 {
 }
 
 interface InterA {
-    int num = 10;//修饰符 'static' 对于接口字段是冗余的,当使用一些修饰符或关键字时如果在编写后显示出的是灰色的,则代表这个关键字冗余,JDK已经默认添加了关键字
+    final static int num = 10;//修饰符 'static' 对于接口字段是冗余的,当使用一些修饰符或关键字时如果在编写后显示出的是灰色的,则代表这个关键字冗余,JDK已经默认添加了关键字
 //    private static final int num0 = 1;//此处不允许使用修饰符 'private',在接口中定义的静态成员变量具有默认的访问修饰符public,因此在定义时不允许使用private修饰符
 }
