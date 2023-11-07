@@ -22,7 +22,7 @@ public class OutputStreamDemo1 {
         //创建字节输出流对象
         FileOutputStream outputStream = new FileOutputStream("day24/src/com/itheima/outputstream_demo/输出流.txt", true);
         //写数据
-        outputStream.write("你好牛逼".getBytes());
+        outputStream.write("你好牛逼".getBytes());//注意在使用write方法将信息写入文件中时,只能直接写入byte类型的二进制数据,所以如果要写入字符需要将字符串使用getBytes()方法转换为byte类型的二进制数据
         for (int i = 0; i < 10; i++) {
             outputStream.write("你好牛逼".getBytes());
             outputStream.write("\r\n".getBytes());

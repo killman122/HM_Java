@@ -37,7 +37,7 @@ public class BufferStreamDemo1 {
             byte[] bys = new byte[1024];
             int len;//记录的是每次真实读到的数据的个数abc则为3
             while ((len = bis.read(bys)) != -1) {
-                bos.write(bys, 0, len);
+                bos.write(bys, 0, len);//注意这里为什么要使用write()的三个参数的方法,而不使用只有一个byte数组的的方法,因为如果读取时,如果没有达到前面的byte []数组中限定的方法,在调用的时候,就会将读不满的数据全部写入一些无效的字节,但是如果要将将数据写文件中,比如实现拷贝,所以需要两个参数的write方法确定真正读取到的数据的个数,然后将这些数据写入文件中
             }
         } catch (IOException e) {//由于在这里使用了try-with-resource语句,所以不需要手动关闭流
             e.printStackTrace();

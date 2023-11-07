@@ -27,6 +27,6 @@ public class OutPutStreamDemo2 {
         fileOutputStream.write(98);
 
         //释放资源
-        fileOutputStream.close();//TODO 在这里能否和python一样,直接通过with方法实现自动关闭输入/输出流
+        fileOutputStream.close();//TODO 在这里能否和python一样,直接通过with方法实现自动关闭输入/输出流,答案是可以的使用Java中的try-with-resource方法好像,实际上就是在try()中创建输入/输出流对象,然后在try代码块中进行操作,最后在try代码块结束后自动关闭输入/输出流对象,也就是一个变态的try..catch.的简写形式
     }
 }

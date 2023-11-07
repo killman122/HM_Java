@@ -4,7 +4,7 @@ import java.io.File;
 
 /*
     Fie类判断和获取功能
-    public boolean isDirectory(测试此抽象路径名表示的File是否为日录
+    public boolean isDirectory(测试此抽象路径名表示的File是否为目录
     public boolean isFile() 测试此抽象路径名表示的File是否为文件
     public boolean exists() 测试此抽象路径名表示的FiLe是否存在
     public string getAbsolutePath() 返回此抽象路径名的绝对路径名字符串

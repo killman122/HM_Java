@@ -8,6 +8,7 @@ public class Test {
 //        Person.Heart heart1 = new Person.Heart();
         Person.Heart heart = new Person().new Heart();
         heart.beats();
+        heart.show();//通过测试可以发现这里heart是成员内部类的对象,只能调用内部类中实现的方法
     }
 }
 

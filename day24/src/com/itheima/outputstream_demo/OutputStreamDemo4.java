@@ -21,6 +21,8 @@ public class OutputStreamDemo4 {
         //创建字节输出流对象
 //        FileOutputStream fos = new FileOutputStream("day24/src/com/itheima/outputstream_demo/输出流.txt");
         FileOutputStream fos = new FileOutputStream(new File("day24/src/com/itheima/outputstream_demo/输出流.txt"));
+        //由于FileOutputStream流对象的参数必须是一个File的对象,所以可以通过new File()方法创建一个File匿名内部类对象,然后将File对象作为参数传入FileOutputStream流对象中
+
         //写数据
         // void write(int b)  一次写一个字节数据
         fos.write(65);
