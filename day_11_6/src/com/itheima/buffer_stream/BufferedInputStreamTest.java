@@ -1,7 +1,5 @@
 package com.itheima.buffer_stream;
-
 import java.io.*;
-
 /*
     掌握字节缓冲流的作用
  */
