@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/day_17/day_18.iml" filepath="$PROJECT_DIR$/day_17/day_18.iml" />
       <module fileurl="file://$PROJECT_DIR$/day_23/day_23学习.iml" filepath="$PROJECT_DIR$/day_23/day_23学习.iml" />
       <module fileurl="file://$PROJECT_DIR$/day/javaLearn.iml" filepath="$PROJECT_DIR$/day/javaLearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HM_Java-proxy-app/junit-reflect-annotation/junit-reflect-annotation.iml" filepath="$PROJECT_DIR$/../HM_Java-proxy-app/junit-reflect-annotation/junit-reflect-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/studentManager/studentManager.iml" filepath="$PROJECT_DIR$/studentManager/studentManager.iml" />
     </modules>
   </component>

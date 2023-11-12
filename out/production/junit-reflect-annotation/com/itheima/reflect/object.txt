@@ -1,0 +1,9 @@
+-----------Student-------------
+name=张三
+age=23
+sex=男
+height=1.78
+hobby=篮球
+-----------Teacher-------------
+name=吴彦祖
+salary=10000.0
